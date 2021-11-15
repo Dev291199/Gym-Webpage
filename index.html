@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFitness.com</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1078px)" href="CSS/phone.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monda&family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/pngegg.png" style="filter: invert(100%);" alt="MyFitness.com">
+        </div>
+        <ul class=" nav-List v-class">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Plans</a></li>
+            <li class="item"><a href="#client-section">Supplements</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyFitness</h1>
+        
+        <p>Make yourself stronger than your excuses.</p>
+        <button class="btn">Book your plan now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Plans</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/bulk.png" alt="">
+                <h2 class="h-secondary center">Bulking</h2>
+                <p class="center">It generally refers to a progressive increase in the number of calories consumed beyond your body’s needs in combination with intense weight training.</p>
+            </div>
+            <div class="box">
+                <img src="img/shredd.png" alt="">
+                <h2 class="h-secondary center">Cutting</h2>
+                <p class="center">Cutting, or the fat loss phase, refers to a gradual decrease in calorie intake and increase in aerobic training to reduce excess body fat from the bulking phase, allowing for improved muscle definition.</p>
+            </div>
+            <div class="box">
+                <img src="img/crossfit.jpg" alt="">
+                <h2 class="h-secondary center">Crossfit</h2>
+                <p class="center">A form of high intensity interval training, CrossFit is a strength and conditioning workout that is made up of functional movement performed at a high intensity level. </p>
+            </div>    
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Supplements</h1>
+        <div id="clients">
+                <div class="client-items">
+                    <img src="img/whey3.jfif" alt="Our Client">
+                </div>
+                <div class="client-items">
+                    <img src="img/whey4.jfif" alt="Our Client">
+                </div>
+                
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Contact Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your Contact Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn1">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copywrite &copy; www.MyFoodDelivery.com. All rights reserved!
+        </div>
+    </footer>
+    <script src="js/resp.js"></script>
+</body>
+
+</html>
